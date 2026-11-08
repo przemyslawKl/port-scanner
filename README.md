@@ -18,40 +18,49 @@ nie przeprowadza brute force.
 
 
 Wymagania i przygotowanie
+
 Python
 Wymagany Python 3.10 lub nowszy.
 
 Zależności
+
 Projekt wykorzystuje wyłącznie bibliotekę standardową Pythona.
 
 Utworzenie środowiska
+
 python3 -m venv .venv
 source .venv/bin/activate
 
 Sprawdzenie interpretera
+
 python --version
 python -c 'import sys; print(sys.executable)'
 
 Interpreter powinien pochodzić z katalogu .venv.
 
 Lokalny cel testowy
+
 W katalogu laboratorium uruchom:
 
 python3 -m http.server 18080 --bind 127.0.0.1 --directory materials/http-root
 
 Serwer nasłuchuje na:
+
 127.0.0.1:18080
 
 Zatrzymanie:
+
 Ctrl + C
 
 
 Uruchomienia
 
 Pomoc:
+
 python scanner.py --help
 
 Skan jednego portu:
+
 python scanner.py 127.0.0.1 \
 --start 18080 \
 --end 18080 \
@@ -59,6 +68,7 @@ python scanner.py 127.0.0.1 \
 --output output/open.csv
 
 Skan zakresu:
+
 python scanner.py 127.0.0.1 \
 --start 18080 \
 --end 18082 \
@@ -108,6 +118,7 @@ Kod	    Znaczenie
 
 
 Testowanie
+
 Przykłady:
 
 Poprawny skan:
