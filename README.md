@@ -1,5 +1,7 @@
 TCP Port Scanner
+
 Cel i zakres
+
 TCP Port Scanner to narzędzie napisane w Pythonie służące do sprawdzania możliwości nawiązania połączenia TCP z wybranym hostem IPv4 i zakresem portów.
 
 Program przeznaczony jest wyłącznie do testowania własnych lub autoryzowanych systemów.
